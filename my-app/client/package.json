@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
     "build": "cd client && npm install && npm run build",
     "start": "npm run build && cd server && npm install && npm start"
   },
