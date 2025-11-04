@@ -1,0 +1,5 @@
+.student-form { display:flex; flex-direction:column; gap:10px; max-width:480px }
+.student-form label { display:flex; flex-direction:column; font-weight:600 }
+.student-form input { padding:8px; border:1px solid #ddd; border-radius:4px }
+.form-actions { display:flex; gap:8px; margin-top:8px }
+.form-actions button { padding:8px 12px; border-radius:6px; border:1px solid #ccc }

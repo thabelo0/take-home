@@ -1,0 +1,4 @@
+.site-header { background:#fff; padding:10px 0; margin-bottom:14px; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,0.04) }
+.site-header .container { display:flex; justify-content:space-between; align-items:center; max-width:900px; margin:0 auto; padding:0 16px; }
+.brand { margin:0; font-size:18px; }
+.main-nav a { margin-left:12px; }

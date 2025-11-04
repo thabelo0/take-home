@@ -1,0 +1,122 @@
+/* src/styles/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-header h1 {
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav .nav-link {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.students-page {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.student-form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.student-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.student-form button:hover {
+  background-color: #005fa3;
+}
+
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.students-table th,
+.students-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.students-table th {
+  background-color: #f0f0f0;
+}
+
+.students-table td button {
+  margin-right: 5px;
+  padding: 5px 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.students-table td button.edit {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.students-table td button.edit:hover {
+  background-color: #1e7e34;
+}
+
+.students-table td button.delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.students-table td button.delete:hover {
+  background-color: #c82333;
+}
+
+.error {
+  color: #dc3545;
+  margin-bottom: 15px;
+  font-weight: bold;
+}

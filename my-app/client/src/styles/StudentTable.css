@@ -1,0 +1,4 @@
+.student-table { width:100%; border-collapse:collapse }
+.student-table th, .student-table td { padding:8px 10px; border-bottom:1px solid #eee; text-align:left }
+.btn { margin-right:8px; padding:6px 10px; border-radius:5px; border:1px solid #888 }
+.btn-danger { background: transparent; border-color: #d00; color:#d00 }
