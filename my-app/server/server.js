@@ -10,7 +10,8 @@ app.use(bodyParser.json());
 // Routes
 app.use("/api/students", studentRoutes);
 
-const PORT = 5000;
+// ✅ Use Railway's port or default to 5000 locally
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
